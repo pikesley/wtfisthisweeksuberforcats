@@ -1,0 +1,11 @@
+<div id='content'>
+  <h1 id='title'></h1>
+  <p id='thing'></p>
+  <a id='generate' href='/'></a>
+</div>
+
+<script>
+$.getJSON(document.URL, function(json) {
+  populate(json)
+})
+</script>

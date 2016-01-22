@@ -1,0 +1,17 @@
+src_files:
+  - public/js/**/*.js
+stylesheets:
+  - stylesheets/**/*.css
+helpers:
+  - helpers/jquery.min.js
+  - helpers/jasmine-jquery.js
+  - helpers/**/*.js
+spec_files:
+  - '**/*[sS]pec.js'
+src_dir:
+spec_dir:
+spec_helper: spec/javascripts/support/jasmine_helper.rb
+boot_dir:
+boot_files:
+server: 'puma'
+random: true
