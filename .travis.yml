@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.3.0
+- 2.3.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: jCX+d/8sqGbgI8haPaUXus1268S3ij9psSMSNrK8BSNhvFTBUfDh1J+RDgeH9jI2pHa7F4lWYxJtbfe8hZjTcLKy5fvSRe/49An6IubvuWw7Y42eq+pOc+LXaUCj+1uCMVXI6OHLuFNvA5VJSnLeVjIrP8PdFVmmddY4z2SeHHDjL8VpLUoF12YnJAwEpvfJJ42gxNqzbhU8p27cW5MK1wMSHiwsqED2jVyepFzqXgtTXwlDYy4/eCy5kbNvztUC6Y9w2VzkIRbsUFStKmVXXzO/iWot82yqv/XXI2+GBscNIdIaMih7NX3c9lIIBqdtJzJVRtWpTbQTK25tA07IdYxXQRD96I9sJg10noWPZQn0SpI7pEkQaD0eODEdiuKmuU8ENezQS1CY7SC/RXtqTooMLaskxhUE6YSQTj3QLeRif0Zo80nsV14No9yVLepBtul2w0cxmNvw20FaPca+XFtKnzRmpxWWT2i7e8L0cVAMiHzPvIimpkpD6iZYann5xwvDWS83QW47UyEcVe/OfpXHK8MzWE3LaWDv8g07uCS/e62ZqnXd0f1OFqj5gmJ4xLbnkbV9BpMvdlw6lyHCokVIF642CI+QpYTMonF4sP1V1AEvXH2SrDaIe+giQBRg8yw+ec8L1nGArmmPX9eXUyWBcZILq5THFOnOLuBarjo=
+  app: wtfisthisweeksuberforcats
+  on:
+    repo: pikesley/wtfisthisweeksuberforcats
