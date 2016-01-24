@@ -1,7 +1,6 @@
 language: ruby
 rvm:
-<<<<<<< HEAD
-- 2.3.0
+  - 2.3.0
 deploy:
   provider: heroku
   api_key:
@@ -9,6 +8,3 @@ deploy:
   app: wtfisthisweeksuberforcats
   on:
     repo: pikesley/wtfisthisweeksuberforcats
-=======
-  - 2.3.0
->>>>>>> parent/master
